@@ -16,11 +16,18 @@ $ docker-compose up
 ```
 $ docker-compose up -d
 ```
+* Log file is printed @ **etc/odoo-server.log**
 
 # Custom addons
+
 The **addons** folder contains custom addons. Just put your custom addons if you have any.
 
 # Odoo configuration
+
 To change Odoo configuration, edit file: **etc/odoo.conf**.
+
 # docker-compose.yml
-* odoo:11.0
+
+* odoo:13.0
+* postgres:12
+
